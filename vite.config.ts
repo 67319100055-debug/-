@@ -5,7 +5,6 @@ import { defineConfig } from 'vite';
 
 export default defineConfig(() => {
   return {
-    // สำคัญสำหรับ GitHub Pages
     base: '/Vachira-Phuket-Hospital/',
 
     plugins: [react(), tailwindcss()],
